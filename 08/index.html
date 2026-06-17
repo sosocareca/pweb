@@ -33,8 +33,9 @@
 }
 
 .imagem {
-    float: right;
+    float: left;
     width: 200px;
+    padding: 10px;
 }
 
 </style>
@@ -87,13 +88,24 @@
     text-align: justify;
     line-height: 24px;
     width: 500px;
-    margin: 20px;
+    float: left;
 }
 
 .noticia h1 {
     color: #ffffff
     font-family: "Helvetica Neue", Arial, sans-serif;
     margin: 8px
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imagem {
+    float: left;
+    width: 200px;
+    padding: 10px;
 }
 
 </style>
@@ -106,7 +118,9 @@
 
         <div class="noticia">
 
-            <h1>Titulo da outra Noticia</h1>
+            <h1>Titulo da Noticia</h1>
+
+            <img class="imagem" scr="https://static.escolakids.uol.com.br/conteudo_legenda/9ef44f561fdf5ff715e219351d6209aa.jpg">
 
             <p >
                 There are many variations of passages of Lorem Ipsum available,
