@@ -10,8 +10,8 @@
             display: flex;
             flex-wrap: wrap;
             gap: 20px;
+            justify-content: center;
             padding: 20px;
-            width: 100%;
 }
 
 .noticia {
@@ -20,23 +20,29 @@
     border: 1px solid rgb(135, 13, 162);
     color: #ffffff;
     font-size: 16px;
-    padding: 15px 10px 15px 15px;
+    padding-left: 15px;
+    padding-right: 10px;
     text-align: justify;
     line-height: 24px;
-    flex: 1; 
-    min-width: 300px;
+    width: 500px;
     box-sizing: border-box;
     overflow: auto;
 }
 
-.noticia.borda-preta {
-            border-color: black;
+.noticia.segunda {
+            border-color: 1px solid black;
         }
 
 .noticia h1 {
     color: #ffffff;
     font-family: "helvetica neue", arial,sans-serif;
-    margin: 8px 0;
+    margin: 8px;
+}
+
+.imagem {
+    float:left;
+    width: 200px;
+    padding: 10px;
 }
 
 #menu a {
@@ -44,18 +50,11 @@
             text-decoration: underline;
         }
 
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
+        </style>
+</head>
+<body>
 
-.imagem {
-    float:left;
-    width: 180px;
-    padding: 10px;
-    margin-right: 10px;
-}
+    <div class="container"></div>
 
 </style>
 </head>
