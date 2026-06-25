@@ -11,6 +11,7 @@
             flex-wrap: wrap;
             gap: 20px;
             padding: 20px;
+            width: 100%;
 }
 
 .noticia {
@@ -22,8 +23,10 @@
     padding: 15px 10px 15px 15px;
     text-align: justify;
     line-height: 24px;
-    width: 500px;
+    flex: 1; 
+    min-width: 300px;
     box-sizing: border-box;
+    overflow: auto;
 }
 
 .noticia.borda-preta {
@@ -49,7 +52,7 @@
 
 .imagem {
     float:left;
-    width: 200px;
+    width: 180px;
     padding: 10px;
     margin-right: 10px;
 }
@@ -103,8 +106,10 @@
     padding: 15px 10px 15px 15px;
     text-align: justify;
     line-height: 24px;
-    width: 500px;
+    flex: 1; 
+    min-width: 300px;
     box-sizing: border-box;
+    overflow: auto;
 }
 
 .noticia.borda-preta {
@@ -130,7 +135,7 @@
 
 .imagem {
     float: left;
-    width: 200px;
+    width: 180px;
     padding: 10px;
     margin-right: 10px;
 }
