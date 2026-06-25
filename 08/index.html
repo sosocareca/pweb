@@ -1,80 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+
+<html>
+
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <title>BOX MODEL</title>
-    <style type="text/css">
- 
-.container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-            padding: 20px;
-}
+    <meta charset="utf-8"/>
 
-.noticia {
-    font-family: "opensans-regular" ,arial,sans-serif;
-    background-color:#cebdff;
-    border: 1px solid rgb(135, 13, 162);
-    color: #ffffff;
-    font-size: 16px;
-    padding-left: 15px;
-    padding-right: 10px;
-    text-align: justify;
-    line-height: 24px;
-    width: 500px;
-    box-sizing: border-box;
-    overflow: auto;
-}
+    <style>
 
-.noticia.segunda {
-            border-color: 1px solid black;
+        .noticia {
+            font-family: "opensans-regular",arial,sans-serif;
+            background-color: #c7a1cd;
+            border: 1px solid black;
+            color: #e08282;
+            font-size: 16px;
+            padding-left: 15px;
+            padding-right: 10px;
+            text-align:justify;
+            line-height: 24px;
+            width: 500px;
+            margin: 20px;
+
         }
 
-.noticia h1 {
-    color: #ffffff;
-    font-family: "helvetica neue", arial,sans-serif;
-    margin: 8px;
-}
-
-.imagem {
-    float:left;
-    width: 200px;
-    padding: 10px;
-}
-
-#menu a {
-            color: #ffffff;
-            text-decoration: underline;
+        .noticia h1{
+            color: #1d0463;
+            font-family: "helvetica neue", arial, sans-serif;
+            margin: 8px
         }
 
-        </style>
+    </style>
+
+
 </head>
+
 <body>
-
-    <div class="container"></div>
-
-</style>
-</head>
-<body>
-
+    
     <div class="container">
-
 
         <div class="noticia">
 
-         <div id="menu">
-            <a href="galeria.html" target="_blank">Galeria</a>
-         </div>
+            <h1>Titulo da noticia</h1>
 
-         <h1>Titulo da Noticia</h1>  
-
-            <img class="imagem" src="noticia.png">
-
-            <p >
-                 There are many variations of passages of Lorem Ipsum avai but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.  if you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All th   Lorem Ipsum generators on the Internet tend to repeat predefined chunks   necessary, making this the first true generator on the Internet. It uses    dictionary of over 200 Latin words, combined with a handful of model sen  structures, to generate Lorem Ipsum which looks reasonable. The generate    Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc
+            <p>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
             </p>
 
         </div>
@@ -82,76 +52,44 @@
 
     </div>
 
-</body>
+     <style>
 
-<title>BOX MODEL</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta charset="utf-8"/>
-<style type="text/css">
+        .noticia {
+            font-family: "opensans-regular",arial,sans-serif;
+            background-color: #c7a1cd;
+            border: 1px solid black;
+            color: #e08282;
+            font-size: 16px;
+            padding-left: 15px;
+            padding-right: 10px;
+            text-align:justify;
+            line-height: 24px;
+            width: 500px;
+            margin: 20px;
 
-    .container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            padding: 20px;
-        }
-    
-.noticia {
-    font-family: "opensans-regular" ,arial,sans-serif;
-    background-color:#cebdff;
-    border: 1px solid black;
-    color: #ffffff;
-    font-size: 16px;
-    padding: 15px 10px 15px 15px;
-    text-align: justify;
-    line-height: 24px;
-    flex: 1; 
-    min-width: 300px;
-    box-sizing: border-box;
-    overflow: auto;
-}
-
-.noticia.borda-preta {
-            border-color: black;
         }
 
-.noticia h1 {
-    color: #ffffff;
-    font-family: "helvetica neue", arial,sans-serif;
-    margin: 8px 0;
-}
-
-#menu a {
-            color: #ffffff;
-            text-decoration: underline;
+        .noticia h1{
+            color: #1d0463;
+            font-family: "helvetica neue", arial, sans-serif;
+            margin: 8px
         }
 
-.container{
-   display: flex;
-   flex-wrap: wrap;
-   gap: 20px;
-}
-
-.imagem {
-    float: left;
-    width: 180px;
-    padding: 10px;
-    margin-right: 10px;
-}
+    </style>
 
 
-</style>
+</head>
 
 <body>
+    
+    <div class="container">
 
-         <div class="noticia borda-preta">
-        
-            <h1>Titulo da outra Noticia</h1>
+        <div class="noticia">
 
-            <img class="imagem" src="noticia.png">
+            <h1>Titulo da noticia</h1>
 
-            <p >
-                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected  humour, or randomised words which don't look even slightly believable.  if you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the  Lorem Ipsum generators on the Internet tend to repeat predefined chunks  necessary, making this the first true generator on the Internet. It uses dictionary of over 200 Latin words, combined with a handful of model sen    structures, to generate Lorem Ipsum which looks reasonable. The generate Lorem Ipsum is therefore always free from repetition, injected humour,  or non-characteristic words etc
+            <p>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
             </p>
 
         </div>
