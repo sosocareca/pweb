@@ -26,6 +26,21 @@
                 color: #ffffff;
             }
 
+            #relativo{
+                position: relative;
+                left: 30px;
+            }
+
+            #absoluto{
+                position: absolute;
+                left: 30px;
+            }
+
+            #fixo{
+                position: fixed;
+                left: 200px;
+                top: 0px;
+            }
         </style>
 
      </head>
@@ -37,15 +52,15 @@
         <div id=conteudo>
             Container div
 
-            <div class="caixa">
+            <div id="relativo" class="caixa">
                 Relativo
             </div>
 
-            <div class="caixa">
+            <div id="absoluto" class="caixa">
                 Absoluto
             </div>
 
-            <div class="caixa">
+            <div id="fixo" class="caixa">
                 Fixo
             </div>
 
